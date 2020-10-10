@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    /* background-color: yellow; */
+}
+body{
+    background-color: #004E88;
+}
+.navbar{
+    background-color: #007BCB;
+    border-bottom: 2px solid #2A2A2A;
+    padding: 0;
+}
+h1{
+    margin: 8% 0;
+    font-size: 175%;
+    color: #D0EDFF;
+    padding-left: 34px;
+}
+button{
+    margin-right: 34px;
+}
+.container div ul{
+    text-align: center;
+    font-size: 1.2em;
+    background-color: turquoise;
+}
+.container div ul li{
+    border-bottom: 2px solid #2A2A2A;
+}
+h2{
+    color: wheat;
+}
+div.row{
+    margin: auto;
+    width: 95%;
+}
+.column{
+    background-color: #007BCB;
+    border: 2px solid #2A2A2A;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+h3{
+    border-radius: 10px 10px 0 0;
+    border-bottom: 2px solid #2A2A2A;
+    width: 100%;
+    font-size: 125%;
+    text-align: center;
+    color: rgb(154, 168, 165);
+}
+p{
+    width: 96%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2% 0;
+}
+#chicken{
+    background-color: #fffd83;
+}
+#beef{
+    background-color: #135bf7;
+}
+#sushi{
+    background-color: #ff5050;
+}
+/* DESKTOP VIEW */
+/* EXTRA LARGE SIZE */
+@media (min-width: 1200px){
+    .container{
+        max-width: 100%;
+        padding: 0;
+    }
+    .container div ul li:nth-child(3){
+        border-bottom: 0;
+    }
+}
+/* LARGE SIZE */
+@media (min-width: 992px) and (max-width: 1199px){
+    .container{
+        max-width: 100%;
+        padding: 0;
+    }
+    .container div ul li:nth-child(3){
+        border-bottom: 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .container{
+        max-width: 100%;
+        padding: 0;
+    }    
+    .container div ul li:nth-child(3){
+        border-bottom: 0;
+    }
+}
+/* TABLET VIEW */
+/* MEDIUM SIZE */
+@media (min-width: 576px) and (max-width: 767px){
+    .container{
+        max-width: 100%;
+        padding: 0;
+    }   
+    .container div ul li:nth-child(3){
+        border-bottom: 0;
+    }  
+}
+/* MOBILE VIEW */
+/* SMALL SIZE */
+@media (max-width: 575px){
+    .container{
+        max-width: 100%;
+        padding: 0;
+    }
+    div.row{
+        width: 70%;
+    }
+    .container div ul li:nth-child(3){
+        border-bottom: 0;
+    }
+}
